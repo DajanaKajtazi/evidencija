@@ -28,7 +28,7 @@ wafepaApp.controller("ZadaciCtrl", function($scope, $http, $location){
 	$scope.pageNum = 0;
 	$scope.totalPages = 1;
 	
-	$scope.prikaz=true;
+	$scope.prikaz=false;
 	
 	
 	var getZadatke = function(){
